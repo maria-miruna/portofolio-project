@@ -76,8 +76,12 @@ p {
   color: var(--branding-color);
 }
 
+.projects-introduction {
+  margin: 82px 0;
+}
+
 .project-description {
-  padding: 90px 60px;
+  padding: 40px 60px;
 }
 
 .app-description {
