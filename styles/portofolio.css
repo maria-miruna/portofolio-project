@@ -33,7 +33,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   color: #272142;
-
   line-height: 30px;
 }
 
@@ -77,15 +76,44 @@ p {
 }
 
 .projects-introduction {
-  margin: 82px 0;
+  margin: 92px 0;
 }
 
 .project-description {
-  padding: 40px 60px;
+  padding: 0 60px 60px;
 }
 
 .app-description {
   opacity: 0.7;
+}
+
+.menu-link {
+  color: var(--branding-color);
+  opacity: 0.7;
+}
+
+.active-link {
+  color: var(--branding-color) !important;
+}
+
+.navbar-nav li {
+  padding-left: 30px;
+}
+
+.email-wrapper {
+  padding-top: 80px;
+}
+
+.contact-email {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.contact-icon {
+  margin-left: 40px;
+  color: var(--branding-color);
+  font-size: 20px;
 }
 
 @media (max-width: 900px) {

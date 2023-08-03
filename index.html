@@ -31,6 +31,57 @@
     ></script>
   </head>
   <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/"
+          ><img src="/images/logo.png" alt="SheCodes Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active active-link"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-link" href="#" title="About Maria Botiș"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link menu-link"
+                href="#"
+                title="Projects made by Maria Botiș"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-link" href="#" title="Contact Maria Botiș"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>👋 Hello, I'm</p>
       <h1>Maria Botiș</h1>
@@ -49,7 +100,7 @@
           <img
             src="/images/weather-app.jpeg"
             alt="Weather App"
-            class="img-fluid"
+            class="img-fluid rounded"
           />
         </div>
         <div class="col">
@@ -90,7 +141,7 @@
           <img
             src="/images/world-clock.jpeg"
             alt="world-clock App"
-            class="img-fluid"
+            class="img-fluid rounded"
           />
         </div>
       </div>
@@ -99,7 +150,7 @@
           <img
             src="/images/penguins.jpeg"
             alt="Penguin's World Project"
-            class="img-fluid"
+            class="img-fluid rounded"
           />
         </div>
         <div class="col">
@@ -112,13 +163,42 @@
               allowing users to access more intriguing facts by entering their
               names and selecting their favorite penguin species with a click of
               a button. Thereby, users are treated to an engaging and
-              educational experience, learning more about the adorable
-              inhabitants of the polar regions.
+              educational experience.
             </p>
             <a href="#" class="btn btn-branding-outline">Find out more</a>
           </div>
         </div>
       </div>
     </div>
+    <footer class="footer bg-light mb-5">
+      <div class="container text-center">
+        <div class="email-wrapper">
+          <a href="mailto: maria.botis1997@gmail.com" class="contact-email"
+            >maria.botis1997@gmail.com</a
+          >
+        </div>
+        <div class="mt-5">
+          <a
+            href="https://www.instagram.com/maria.botis/"
+            target="_blank"
+            class="contact-icon"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/maria-botis-9b3855259/"
+            target="_blank"
+            class="contact-icon"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/maria-miruna"
+            target="_blank"
+            class="contact-icon"
+            ><i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <!-- <span>&copy; 2023 Your Website. All rights reserved.</span> -->
+      </div>
+    </footer>
   </body>
 </html>
