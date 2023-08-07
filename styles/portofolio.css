@@ -57,26 +57,35 @@ p {
   line-height: 2;
 }
 
-.about-section {
+.content-section {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content-section h1 {
   font-size: 64px;
   line-height: 1;
 }
 
-.about-section h2 {
+.content-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   color: #272142;
 }
 
-.about-section p {
-  opacity: 0.7;
+.content-section h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  text-align: center;
+  /* margin: 20px 0 0; */
 }
 
-.about-section-content {
+.content-section p {
+  opacity: 0.7;
+  font-size: 14px;
+  text-align: center;
+}
+
+.content {
   margin: 30px;
 }
 
@@ -161,7 +170,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-section {
     text-align: center;
     padding: 80px 0;
   }
