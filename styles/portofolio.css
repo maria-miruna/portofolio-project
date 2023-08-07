@@ -36,6 +36,10 @@ p {
   line-height: 30px;
 }
 
+footer {
+  padding-bottom: 30px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -75,14 +79,11 @@ p {
 .content-section h3 {
   font-size: 24px;
   font-family: var(--default-font-family);
-  text-align: center;
-  /* margin: 20px 0 0; */
 }
 
 .content-section p {
   opacity: 0.7;
   font-size: 14px;
-  text-align: center;
 }
 
 .content {
@@ -172,6 +173,6 @@ p {
   }
   .content-section {
     text-align: center;
-    padding: 80px 0;
+    padding: 100px 0;
   }
 }
