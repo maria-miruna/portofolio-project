@@ -120,6 +120,13 @@ footer {
   font-size: 18px;
   line-height: 27px;
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  opacity: 0.7;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 
 .projects-introduction {
@@ -150,6 +157,16 @@ footer {
 
 .navbar-nav li {
   padding-left: 30px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--branding-color);
 }
 
 footer .contact-box {
