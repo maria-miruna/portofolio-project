@@ -164,6 +164,14 @@ footer {
   color: var(--branding-color);
 }
 
+.project-link img {
+  transition: transform 150ms ease-in-out;
+}
+
+.project-link img:hover {
+  transform: scale(1.05);
+}
+
 footer a {
   text-decoration: none;
   color: var(--branding-color);
