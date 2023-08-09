@@ -98,6 +98,10 @@ footer {
   border-radius: 20px;
 }
 
+.logo {
+  max-width: 80px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   color: white;
